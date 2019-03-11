@@ -1,8 +1,9 @@
 # generate-php-proto-interface-server
 
 ## overview
-* This is php file generater using protocolbuffer interface.
-* 
+* This is *PHP* source code generator for Protocol Buffers.
+* Resolve the problems not create service file
+    * https://stackoverflow.com/questions/31029675/protoc-not-generating-service-stub-files
 
 ## how to use
 ### first
@@ -25,7 +26,7 @@ docker-compose up -d
 docker exec -it proto_build bash
 ```
 
-### build php files.
+### build php files
 
 ```
 cd /proto
