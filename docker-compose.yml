@@ -1,0 +1,9 @@
+version: "2"
+
+services:
+  proto_build:
+    build: ./
+    container_name: proto_build
+    volumes:
+      - ./proto:/proto
+    tty: true
